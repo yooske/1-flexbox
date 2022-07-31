@@ -21,11 +21,12 @@
   margin-right: auto;
 }
 .flex2 {
-  background-color: #98fb98;
-  width: 1000px;
   display: flex;
-  justify-content: flex-end;
-  margin: 0 auto;
+  justify-content: center;
+}
+.sidebar {
+  background-color: #d8ffb6;
+  width: 300px;
 }
 .flex3 {
   background-color: green;
@@ -47,15 +48,12 @@
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .flex4 > div {
   background-color: #add8eb;
-  flex-basis: 45%;
+  width: 45%;
   max-width: 600px;
   height: 40px;
   margin: 10px;
-}
-.flex4 > div:last-child {
-  margin: 10px auto;
 }
